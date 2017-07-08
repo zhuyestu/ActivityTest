@@ -20,8 +20,8 @@ public class ThirdActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(ThirdActivity.this, "You clicked Button 3", Toast.LENGTH_SHORT).show();
-                Intent intent3 = new Intent(Intent.ACTION_DIAL);
-                intent3.setData(Uri.parse("tel:10086"));
+                Intent intent3 = new Intent(Intent.ACTION_VIEW);
+                intent3.setData(Uri.parse("http://www.baidu.com"));
                 startActivity(intent3);
             }
         });
