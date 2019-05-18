@@ -21,7 +21,7 @@ public class ThirdActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(ThirdActivity.this, "You clicked Button 3", Toast.LENGTH_SHORT).show();
                 Intent intent3 = new Intent(Intent.ACTION_VIEW);
-                intent3.setData(Uri.parse("http://www.baidu.com"));
+                intent3.setData(Uri.parse("http://www.google.com"));
                 startActivity(intent3);
             }
         });
